@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  margin-top: 60px;
+}
+
+.time {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.board-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+}
