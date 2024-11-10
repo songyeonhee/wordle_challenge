@@ -10,6 +10,6 @@ answer="TRAIN"
 def get_answer():
     return answer
 
-app.mount("/static", StaticFiles(directory="static", html=True), name="static")
+app.mount("/", StaticFiles(directory="static", html=True), name="static")
 
 
